@@ -52,7 +52,6 @@ public class TokenizerTest {
 			// external code binding
 			TinySETokenizer obj = new TinySETokenizer();
 			assertNotNull(obj);
-			
 			obj.setup();
 			for (int i = 0; i < testSentences.size(); i++) {
 				List<String> arr = obj.split(testSentences.get(i));
