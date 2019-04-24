@@ -14,7 +14,7 @@ import org.junit.Test;
 
 import edu.hanyang.submit.TinySEExternalSort;
 
-@Ignore("Delete this line to unit test stage 2")
+//@Ignore("Delete this line to unit test stage 2")
 public class ExternalSortTest {
 	@Before
 	public void init() {
@@ -27,10 +27,10 @@ public class ExternalSortTest {
 	
 	@Test
 	public void TestSort() throws IOException {
-		int blocksize = 1024;
-		int nblocks = 160;
+		int blocksize = 8192;
+		int nblocks = 2000;
 		ClassLoader classLoader = this.getClass().getClassLoader();
-		File infile = new File(classLoader.getResource("test.data").getFile());
+		File infile = new File(classLoader.getResource("test.data").getFile()); //new File("./src/test/resources/test.data"); //
 		String outfile = "./tmp/sorted.data";
 		String tmpdir = "./tmp";
 		File resultFile = new File(outfile);
@@ -40,7 +40,6 @@ public class ExternalSortTest {
 		sort.sort(infile.getAbsolutePath(), outfile, tmpdir, blocksize, nblocks);
 		System.out.println("time duration: " + (System.currentTimeMillis() - timestamp) + " msecs with " + nblocks + " blocks of size " + blocksize + " bytes");
 
-		
 		File answerFile = new File(classLoader.getResource("answer.data").getFile());
 		DataInputStream resultInputStream = new DataInputStream(new BufferedInputStream(new FileInputStream(resultFile)));
 		DataInputStream answerInputStream = new DataInputStream(new BufferedInputStream(new FileInputStream(answerFile)));
@@ -52,6 +51,7 @@ public class ExternalSortTest {
 			assertEquals(resultInputStream.readInt(), answerInputStream.readInt());
 			assertEquals(resultInputStream.readInt(), answerInputStream.readInt());
 			assertEquals(resultInputStream.readInt(), answerInputStream.readInt());
+
 		}
 
 		resultInputStream.close();
