@@ -149,7 +149,6 @@ public class TinySEExternalSort implements ExternalSort {
 	public static DataInputStream open_input_run(String filepath, int buffersize) throws FileNotFoundException {
 		return new DataInputStream(new BufferedInputStream(new FileInputStream(filepath), buffersize));
 	}
-
 	public static DataOutputStream open_output_run(String filepath, int buffersize) throws IOException {
 		File file = new File(filepath);
 		File parentFile = file.getParentFile();
@@ -161,12 +160,16 @@ public class TinySEExternalSort implements ExternalSort {
 		}
 		return new DataOutputStream(new BufferedOutputStream(new FileOutputStream(filepath, true), buffersize));
 	}
+	public static void sort_arr(ArrayList<MutableTriple<Integer, Integer, Integer>> arr) {
+		Collections.sort(arr);
+	}
+
 	public void sort(String infile, String outfile, String tmpdir, int blocksize, int nblocks) throws IOException {
 		memo_size = (int) (blocksize * nblocks);
 		n_elements = (int) memo_size / 12;
-		buffer_size = 4096;
+		buffer_size = (int) 2048;
 		block_elements = (int) blocksize / 12;
-		memo_elements = (int) 1024 * 64 / 12;
+		memo_elements = (int) 1024 * 128 / 12;
 		n_way_merge = nblocks > 64 ? 64 : nblocks;
 		this.tmpdir = tmpdir;
 		File file = new File(tmpdir);
@@ -188,7 +191,7 @@ public class TinySEExternalSort implements ExternalSort {
 			} else {
 				read_array(is, memo_elements, arr);
 			}
-			DiskIO.sort_arr(arr, arr.size());
+			sort_arr(arr);
 			part += 1;
 			output_path = tmpdir + "/run_" + Integer.toString(run) + "/" + Integer.toString(part) + ".data";
 			os = open_output_run(output_path, buffer_size);
@@ -208,18 +211,18 @@ public class TinySEExternalSort implements ExternalSort {
 			for (int i = 0; i < prev_files.length; i++) {
 				file_to_merge.add(open_input_run(prev_files[i].getAbsolutePath(), buffer_size));
 				if (file_to_merge.size() == n_way_merge) {
-					merge_use_tree(file_to_merge, run, part);
+					merge(file_to_merge, run, part);
 					file_to_merge.clear();
-					part += 1;0.
+					part += 1;
 				}
 			}
 			if(prev_files.length < n_way_merge){
-				merge_use_tree(file_to_merge, outfile);
+				merge(file_to_merge, outfile);
 				file_to_merge.clear();
 				break;
 			}
 			if (file_to_merge.size() > 0) {
-				merge_use_tree(file_to_merge, run, part);
+				merge(file_to_merge, run, part);
 				file_to_merge.clear();
 			}
 			prev_run = tmpdir + "/run_" + Integer.toString(run);

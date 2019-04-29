@@ -2,15 +2,197 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a28e46a-e95e-408c-a752-2b82c8260d09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/DataManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tinyse-2019.stage_1.build_1.jar" afterPath="$PROJECT_DIR$/lib/tinyse-2019.stage_1.build_1.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/9366020182.iml" afterPath="$PROJECT_DIR$/9366020182.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/TinySEExternalSort.java" afterPath="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/TinySEExternalSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/hanyang/ExternalSortTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/hanyang/ExternalSortTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/10.data" afterPath="$PROJECT_DIR$/tmp/run_1/10.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/100.data" afterPath="$PROJECT_DIR$/tmp/run_1/100.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/101.data" afterPath="$PROJECT_DIR$/tmp/run_1/101.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/102.data" afterPath="$PROJECT_DIR$/tmp/run_1/102.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/103.data" afterPath="$PROJECT_DIR$/tmp/run_1/103.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/104.data" afterPath="$PROJECT_DIR$/tmp/run_1/104.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/105.data" afterPath="$PROJECT_DIR$/tmp/run_1/105.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/106.data" afterPath="$PROJECT_DIR$/tmp/run_1/106.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/107.data" afterPath="$PROJECT_DIR$/tmp/run_1/107.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/108.data" afterPath="$PROJECT_DIR$/tmp/run_1/108.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/109.data" afterPath="$PROJECT_DIR$/tmp/run_1/109.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/11.data" afterPath="$PROJECT_DIR$/tmp/run_1/11.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/110.data" afterPath="$PROJECT_DIR$/tmp/run_1/110.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/111.data" afterPath="$PROJECT_DIR$/tmp/run_1/111.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/112.data" afterPath="$PROJECT_DIR$/tmp/run_1/112.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/113.data" afterPath="$PROJECT_DIR$/tmp/run_1/113.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/114.data" afterPath="$PROJECT_DIR$/tmp/run_1/114.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/115.data" afterPath="$PROJECT_DIR$/tmp/run_1/115.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/116.data" afterPath="$PROJECT_DIR$/tmp/run_1/116.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/117.data" afterPath="$PROJECT_DIR$/tmp/run_1/117.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/118.data" afterPath="$PROJECT_DIR$/tmp/run_1/118.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/119.data" afterPath="$PROJECT_DIR$/tmp/run_1/119.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/12.data" afterPath="$PROJECT_DIR$/tmp/run_1/12.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/120.data" afterPath="$PROJECT_DIR$/tmp/run_1/120.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/121.data" afterPath="$PROJECT_DIR$/tmp/run_1/121.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/122.data" afterPath="$PROJECT_DIR$/tmp/run_1/122.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/123.data" afterPath="$PROJECT_DIR$/tmp/run_1/123.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/124.data" afterPath="$PROJECT_DIR$/tmp/run_1/124.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/125.data" afterPath="$PROJECT_DIR$/tmp/run_1/125.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/126.data" afterPath="$PROJECT_DIR$/tmp/run_1/126.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/127.data" afterPath="$PROJECT_DIR$/tmp/run_1/127.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/128.data" afterPath="$PROJECT_DIR$/tmp/run_1/128.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/129.data" afterPath="$PROJECT_DIR$/tmp/run_1/129.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/13.data" afterPath="$PROJECT_DIR$/tmp/run_1/13.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/130.data" afterPath="$PROJECT_DIR$/tmp/run_1/130.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/131.data" afterPath="$PROJECT_DIR$/tmp/run_1/131.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/132.data" afterPath="$PROJECT_DIR$/tmp/run_1/132.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/133.data" afterPath="$PROJECT_DIR$/tmp/run_1/133.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/134.data" afterPath="$PROJECT_DIR$/tmp/run_1/134.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/135.data" afterPath="$PROJECT_DIR$/tmp/run_1/135.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/136.data" afterPath="$PROJECT_DIR$/tmp/run_1/136.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/137.data" afterPath="$PROJECT_DIR$/tmp/run_1/137.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/138.data" afterPath="$PROJECT_DIR$/tmp/run_1/138.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/139.data" afterPath="$PROJECT_DIR$/tmp/run_1/139.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/14.data" afterPath="$PROJECT_DIR$/tmp/run_1/14.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/140.data" afterPath="$PROJECT_DIR$/tmp/run_1/140.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/141.data" afterPath="$PROJECT_DIR$/tmp/run_1/141.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/142.data" afterPath="$PROJECT_DIR$/tmp/run_1/142.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/143.data" afterPath="$PROJECT_DIR$/tmp/run_1/143.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/144.data" afterPath="$PROJECT_DIR$/tmp/run_1/144.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/145.data" afterPath="$PROJECT_DIR$/tmp/run_1/145.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/146.data" afterPath="$PROJECT_DIR$/tmp/run_1/146.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/147.data" afterPath="$PROJECT_DIR$/tmp/run_1/147.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/148.data" afterPath="$PROJECT_DIR$/tmp/run_1/148.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/149.data" afterPath="$PROJECT_DIR$/tmp/run_1/149.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/15.data" afterPath="$PROJECT_DIR$/tmp/run_1/15.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/150.data" afterPath="$PROJECT_DIR$/tmp/run_1/150.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/151.data" afterPath="$PROJECT_DIR$/tmp/run_1/151.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/152.data" afterPath="$PROJECT_DIR$/tmp/run_1/152.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/153.data" afterPath="$PROJECT_DIR$/tmp/run_1/153.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/154.data" afterPath="$PROJECT_DIR$/tmp/run_1/154.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/155.data" afterPath="$PROJECT_DIR$/tmp/run_1/155.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/156.data" afterPath="$PROJECT_DIR$/tmp/run_1/156.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/157.data" afterPath="$PROJECT_DIR$/tmp/run_1/157.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/158.data" afterPath="$PROJECT_DIR$/tmp/run_1/158.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/159.data" afterPath="$PROJECT_DIR$/tmp/run_1/159.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/16.data" afterPath="$PROJECT_DIR$/tmp/run_1/16.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/160.data" afterPath="$PROJECT_DIR$/tmp/run_1/160.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/161.data" afterPath="$PROJECT_DIR$/tmp/run_1/161.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/162.data" afterPath="$PROJECT_DIR$/tmp/run_1/162.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/163.data" afterPath="$PROJECT_DIR$/tmp/run_1/163.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/164.data" afterPath="$PROJECT_DIR$/tmp/run_1/164.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/165.data" afterPath="$PROJECT_DIR$/tmp/run_1/165.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/166.data" afterPath="$PROJECT_DIR$/tmp/run_1/166.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/167.data" afterPath="$PROJECT_DIR$/tmp/run_1/167.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/168.data" afterPath="$PROJECT_DIR$/tmp/run_1/168.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/169.data" afterPath="$PROJECT_DIR$/tmp/run_1/169.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/17.data" afterPath="$PROJECT_DIR$/tmp/run_1/17.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/170.data" afterPath="$PROJECT_DIR$/tmp/run_1/170.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/171.data" afterPath="$PROJECT_DIR$/tmp/run_1/171.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/172.data" afterPath="$PROJECT_DIR$/tmp/run_1/172.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/173.data" afterPath="$PROJECT_DIR$/tmp/run_1/173.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/174.data" afterPath="$PROJECT_DIR$/tmp/run_1/174.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/175.data" afterPath="$PROJECT_DIR$/tmp/run_1/175.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/176.data" afterPath="$PROJECT_DIR$/tmp/run_1/176.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/177.data" afterPath="$PROJECT_DIR$/tmp/run_1/177.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/178.data" afterPath="$PROJECT_DIR$/tmp/run_1/178.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/179.data" afterPath="$PROJECT_DIR$/tmp/run_1/179.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/18.data" afterPath="$PROJECT_DIR$/tmp/run_1/18.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/180.data" afterPath="$PROJECT_DIR$/tmp/run_1/180.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/181.data" afterPath="$PROJECT_DIR$/tmp/run_1/181.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/182.data" afterPath="$PROJECT_DIR$/tmp/run_1/182.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/183.data" afterPath="$PROJECT_DIR$/tmp/run_1/183.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/184.data" afterPath="$PROJECT_DIR$/tmp/run_1/184.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/185.data" afterPath="$PROJECT_DIR$/tmp/run_1/185.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/19.data" afterPath="$PROJECT_DIR$/tmp/run_1/19.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/2.data" afterPath="$PROJECT_DIR$/tmp/run_1/2.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/20.data" afterPath="$PROJECT_DIR$/tmp/run_1/20.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/21.data" afterPath="$PROJECT_DIR$/tmp/run_1/21.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/22.data" afterPath="$PROJECT_DIR$/tmp/run_1/22.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/23.data" afterPath="$PROJECT_DIR$/tmp/run_1/23.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/24.data" afterPath="$PROJECT_DIR$/tmp/run_1/24.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/25.data" afterPath="$PROJECT_DIR$/tmp/run_1/25.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/26.data" afterPath="$PROJECT_DIR$/tmp/run_1/26.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/27.data" afterPath="$PROJECT_DIR$/tmp/run_1/27.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/28.data" afterPath="$PROJECT_DIR$/tmp/run_1/28.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/29.data" afterPath="$PROJECT_DIR$/tmp/run_1/29.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/3.data" afterPath="$PROJECT_DIR$/tmp/run_1/3.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/30.data" afterPath="$PROJECT_DIR$/tmp/run_1/30.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/31.data" afterPath="$PROJECT_DIR$/tmp/run_1/31.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/32.data" afterPath="$PROJECT_DIR$/tmp/run_1/32.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/33.data" afterPath="$PROJECT_DIR$/tmp/run_1/33.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/34.data" afterPath="$PROJECT_DIR$/tmp/run_1/34.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/35.data" afterPath="$PROJECT_DIR$/tmp/run_1/35.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/36.data" afterPath="$PROJECT_DIR$/tmp/run_1/36.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/37.data" afterPath="$PROJECT_DIR$/tmp/run_1/37.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/38.data" afterPath="$PROJECT_DIR$/tmp/run_1/38.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/39.data" afterPath="$PROJECT_DIR$/tmp/run_1/39.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/4.data" afterPath="$PROJECT_DIR$/tmp/run_1/4.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/40.data" afterPath="$PROJECT_DIR$/tmp/run_1/40.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/41.data" afterPath="$PROJECT_DIR$/tmp/run_1/41.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/42.data" afterPath="$PROJECT_DIR$/tmp/run_1/42.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/43.data" afterPath="$PROJECT_DIR$/tmp/run_1/43.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/44.data" afterPath="$PROJECT_DIR$/tmp/run_1/44.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/45.data" afterPath="$PROJECT_DIR$/tmp/run_1/45.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/46.data" afterPath="$PROJECT_DIR$/tmp/run_1/46.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/47.data" afterPath="$PROJECT_DIR$/tmp/run_1/47.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/48.data" afterPath="$PROJECT_DIR$/tmp/run_1/48.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/49.data" afterPath="$PROJECT_DIR$/tmp/run_1/49.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/5.data" afterPath="$PROJECT_DIR$/tmp/run_1/5.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/50.data" afterPath="$PROJECT_DIR$/tmp/run_1/50.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/51.data" afterPath="$PROJECT_DIR$/tmp/run_1/51.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/52.data" afterPath="$PROJECT_DIR$/tmp/run_1/52.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/53.data" afterPath="$PROJECT_DIR$/tmp/run_1/53.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/54.data" afterPath="$PROJECT_DIR$/tmp/run_1/54.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/55.data" afterPath="$PROJECT_DIR$/tmp/run_1/55.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/56.data" afterPath="$PROJECT_DIR$/tmp/run_1/56.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/57.data" afterPath="$PROJECT_DIR$/tmp/run_1/57.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/58.data" afterPath="$PROJECT_DIR$/tmp/run_1/58.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/59.data" afterPath="$PROJECT_DIR$/tmp/run_1/59.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/6.data" afterPath="$PROJECT_DIR$/tmp/run_1/6.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/60.data" afterPath="$PROJECT_DIR$/tmp/run_1/60.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/61.data" afterPath="$PROJECT_DIR$/tmp/run_1/61.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/62.data" afterPath="$PROJECT_DIR$/tmp/run_1/62.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/63.data" afterPath="$PROJECT_DIR$/tmp/run_1/63.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/64.data" afterPath="$PROJECT_DIR$/tmp/run_1/64.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/65.data" afterPath="$PROJECT_DIR$/tmp/run_1/65.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/66.data" afterPath="$PROJECT_DIR$/tmp/run_1/66.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/67.data" afterPath="$PROJECT_DIR$/tmp/run_1/67.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/68.data" afterPath="$PROJECT_DIR$/tmp/run_1/68.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/69.data" afterPath="$PROJECT_DIR$/tmp/run_1/69.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/7.data" afterPath="$PROJECT_DIR$/tmp/run_1/7.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/70.data" afterPath="$PROJECT_DIR$/tmp/run_1/70.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/71.data" afterPath="$PROJECT_DIR$/tmp/run_1/71.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/72.data" afterPath="$PROJECT_DIR$/tmp/run_1/72.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/73.data" afterPath="$PROJECT_DIR$/tmp/run_1/73.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/74.data" afterPath="$PROJECT_DIR$/tmp/run_1/74.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/75.data" afterPath="$PROJECT_DIR$/tmp/run_1/75.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/76.data" afterPath="$PROJECT_DIR$/tmp/run_1/76.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/77.data" afterPath="$PROJECT_DIR$/tmp/run_1/77.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/78.data" afterPath="$PROJECT_DIR$/tmp/run_1/78.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/79.data" afterPath="$PROJECT_DIR$/tmp/run_1/79.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/8.data" afterPath="$PROJECT_DIR$/tmp/run_1/8.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/80.data" afterPath="$PROJECT_DIR$/tmp/run_1/80.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/81.data" afterPath="$PROJECT_DIR$/tmp/run_1/81.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/82.data" afterPath="$PROJECT_DIR$/tmp/run_1/82.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/83.data" afterPath="$PROJECT_DIR$/tmp/run_1/83.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/84.data" afterPath="$PROJECT_DIR$/tmp/run_1/84.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/85.data" afterPath="$PROJECT_DIR$/tmp/run_1/85.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/86.data" afterPath="$PROJECT_DIR$/tmp/run_1/86.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/87.data" afterPath="$PROJECT_DIR$/tmp/run_1/87.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/88.data" afterPath="$PROJECT_DIR$/tmp/run_1/88.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/89.data" afterPath="$PROJECT_DIR$/tmp/run_1/89.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/9.data" afterPath="$PROJECT_DIR$/tmp/run_1/9.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/90.data" afterPath="$PROJECT_DIR$/tmp/run_1/90.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/91.data" afterPath="$PROJECT_DIR$/tmp/run_1/91.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/92.data" afterPath="$PROJECT_DIR$/tmp/run_1/92.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/93.data" afterPath="$PROJECT_DIR$/tmp/run_1/93.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/94.data" afterPath="$PROJECT_DIR$/tmp/run_1/94.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/95.data" afterPath="$PROJECT_DIR$/tmp/run_1/95.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/96.data" afterPath="$PROJECT_DIR$/tmp/run_1/96.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/97.data" afterPath="$PROJECT_DIR$/tmp/run_1/97.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/98.data" afterPath="$PROJECT_DIR$/tmp/run_1/98.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_1/99.data" afterPath="$PROJECT_DIR$/tmp/run_1/99.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_2/1.data" afterPath="$PROJECT_DIR$/tmp/run_2/1.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_2/2.data" afterPath="$PROJECT_DIR$/tmp/run_2/2.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/run_2/3.data" afterPath="$PROJECT_DIR$/tmp/run_2/3.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/sorted.data" afterPath="$PROJECT_DIR$/tmp/sorted.data" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,13 +209,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TinySEExternalSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TinySEExternalSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/TinySEExternalSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="212" column="32" lean-forward="false" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
+            <state relative-caret-position="2288">
+              <caret line="224" column="48" lean-forward="true" selection-start-line="224" selection-start-column="48" selection-end-line="224" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#open_input_run#0;class#TinySEExternalSort#0" expanded="false" />
+                <element signature="method#open_output_run#0;class#TinySEExternalSort#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -42,18 +226,18 @@
       <file leaf-file-name="DiskIO.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/tinyse-2019.stage_1.build_1.jar!/edu/hanyang/utils/DiskIO.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1009">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="396">
+              <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="2772">
+              <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +248,8 @@
       <file leaf-file-name="ExternalSortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/hanyang/ExternalSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1270">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,14 +260,9 @@
       <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
+            <state relative-caret-position="380">
               <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-              <folding>
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,9 +303,9 @@
         <option value="$PROJECT_DIR$/src/main/java/test/ExternalSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/IOStringStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/BinaryFileBuffer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/hanyang/ExternalSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/DataManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/Tree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/hanyang/ExternalSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/hanyang/submit/TinySEExternalSort.java" />
       </list>
     </option>
@@ -181,6 +360,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -198,8 +379,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,43 +667,44 @@
       <workItem from="1555396141931" duration="5245000" />
       <workItem from="1555427692021" duration="11321000" />
       <workItem from="1555480404664" duration="8115000" />
+      <workItem from="1556185152627" duration="3813000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExternalSortTest - 2019.04.17 at 15h 45m 55s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 35m 32s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 35m 55s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 36m 13s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 36m 36s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 36m 51s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 37m 08s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 37m 32s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExternalSortTest - 2019.04.17 at 19h 37m 48s.xml">
-      <configuration name="ExternalSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExternalSortTest - 2019.04.17 at 19h 38m 03s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 18h 40m 14s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 18h 42m 42s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 18h 50m 06s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 18h 52m 14s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 18h 53m 24s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 19h 12m 10s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 19h 14m 08s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 19h 15m 37s.xml">
+      <configuration name="ExternalSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExternalSortTest - 2019.04.25 at 19h 36m 31s.xml">
       <configuration name="ExternalSortTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106086000" />
+    <option name="totallyTimeSpent" value="109899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -537,19 +717,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4240363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4240363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15343347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -567,7 +747,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -632,6 +812,8 @@
           <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#open_input_run#0;class#TinySEExternalSort#0" expanded="false" />
+            <element signature="method#open_output_run#0;class#TinySEExternalSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -678,6 +860,8 @@
           <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#open_input_run#0;class#TinySEExternalSort#0" expanded="false" />
+            <element signature="method#open_output_run#0;class#TinySEExternalSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -717,6 +901,8 @@
           <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#open_input_run#0;class#TinySEExternalSort#0" expanded="false" />
+            <element signature="method#open_output_run#0;class#TinySEExternalSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -894,49 +1080,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
+        <state relative-caret-position="380">
           <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/tinyse-2019.stage_1.build_1.jar!/edu/hanyang/utils/DiskIO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1009">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/hanyang/ExternalSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1270">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/tinyse-2019.stage_1.build_1.jar!/edu/hanyang/utils/DiskIO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/TinySEExternalSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="224" column="48" lean-forward="true" selection-start-line="224" selection-start-column="48" selection-end-line="224" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#open_input_run#0;class#TinySEExternalSort#0" expanded="false" />
+            <element signature="method#open_output_run#0;class#TinySEExternalSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/hanyang/submit/TinySEExternalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="212" column="32" lean-forward="false" selection-start-line="212" selection-start-column="32" selection-end-line="212" selection-end-column="32" />
+        <state relative-caret-position="2772">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
