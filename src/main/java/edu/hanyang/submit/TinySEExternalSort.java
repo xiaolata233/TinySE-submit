@@ -167,10 +167,10 @@ public class TinySEExternalSort implements ExternalSort {
 	public void sort(String infile, String outfile, String tmpdir, int blocksize, int nblocks) throws IOException {
 		memo_size = (int) (blocksize * nblocks);
 		n_elements = (int) memo_size / 12;
-		buffer_size = (int) 2048;
+		buffer_size = (int) 1024;
 		block_elements = (int) blocksize / 12;
 		memo_elements = (int) 1024 * 128 / 12;
-		n_way_merge = nblocks > 64 ? 64 : nblocks;
+		n_way_merge = nblocks > 128 ? 128 : nblocks;
 		this.tmpdir = tmpdir;
 		File file = new File(tmpdir);
 		if (!file.exists()) {
@@ -199,7 +199,7 @@ public class TinySEExternalSort implements ExternalSort {
 			os.flush();
 		}
 
-		System.out.println("time duration: " + (System.currentTimeMillis() - timestamp) + " msecs");
+		//System.out.println("time duration: " + (System.currentTimeMillis() - timestamp) + " msecs");
 		timestamp = System.currentTimeMillis();
 		// ----------------- merge ------------------
 		String prev_run = tmpdir + "/run_" + Integer.toString(run);
@@ -228,7 +228,7 @@ public class TinySEExternalSort implements ExternalSort {
 			prev_run = tmpdir + "/run_" + Integer.toString(run);
 			prev_files = new File(prev_run).listFiles();
 		}
-		System.out.println("time duration: " + (System.currentTimeMillis() - timestamp) + " msecs");
+		//System.out.println("time duration: " + (System.currentTimeMillis() - timestamp) + " msecs");
 	}
 
 	public static void main(String[] args) throws IOException {

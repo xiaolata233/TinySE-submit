@@ -30,8 +30,8 @@ public class ExternalSortTest {
 		int blocksize = 8192;
 		int nblocks = 2000;
 		ClassLoader classLoader = this.getClass().getClassLoader();
-		//File infile = new File(classLoader.getResource("test.data").getFile());
-		File infile = new File(classLoader.getResource("test-10000000.data").getFile());
+		File infile = new File(classLoader.getResource("test.data").getFile());
+//		File infile = new File(classLoader.getResource("test-10000000.data").getFile());
 		String outfile = "./tmp/sorted.data";
 		String tmpdir = "./tmp";
 		File resultFile = new File(outfile);
