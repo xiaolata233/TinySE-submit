@@ -16,8 +16,8 @@ public class BPlusTreeTest {
 	public void bPlusTreeTest() throws IOException {
 		String metapath = "./tmp/bplustree.meta";
 		String savepath = "./tmp/bplustree.tree";
-		int blocksize = 52;
-		int nblocks = 10;
+		int blocksize = 512;
+		int nblocks = 1000;
  
 		File treefile = new File(savepath);
 		if (treefile.exists()) {

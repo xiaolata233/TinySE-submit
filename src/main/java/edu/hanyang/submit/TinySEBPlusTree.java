@@ -62,7 +62,7 @@ public class TinySEBPlusTree implements BPlusTree{
 		root_position = new Long(0);
 
 		File meta = new File(metapath);
-		if(meta.exists()){
+		if(meta.exists() && meta.length() > 0){
 			DataInputStream is = new DataInputStream(new BufferedInputStream(new FileInputStream(metapath), 1024));
 			root_position = is.readLong();
 			maxKeys = is.readInt();
@@ -120,7 +120,7 @@ public class TinySEBPlusTree implements BPlusTree{
 			save.delete();
 		}
 		int blocksize = 44;
-		int nblocks = 100;
+		int nblocks = 1000;
 //		TinySEBPlusTree.file = new RandomAccessFile(savepath, "rw");
 //		TinySEBPlusTree.blocksize = 44;
 //		TinySEBPlusTree.num_nodes = 0;
@@ -149,9 +149,9 @@ public class TinySEBPlusTree implements BPlusTree{
 		tree.insert(247, 54);
 		tree.insert(357, 254);
 		tree.insert(557, 54);
-
-
 		tree.close();
+
+		tree = new TinySEBPlusTree();
 		tree.open(metapath, savepath, blocksize, nblocks);
 		assertEquals(tree.search(5), 10);
 		assertEquals(tree.search(6), 15);

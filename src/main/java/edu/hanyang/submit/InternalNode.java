@@ -78,6 +78,7 @@ public class InternalNode extends Node{
         child.insertValue(key, value);
         if (child.isOverflow()) {
             Node sibling = child.split();
+            TinySEBPlusTree.num_nodes += 1;
             insertChild(sibling.getFirstLeafKey(), sibling);
         }
         if (TinySEBPlusTree.root.isOverflow()) {
