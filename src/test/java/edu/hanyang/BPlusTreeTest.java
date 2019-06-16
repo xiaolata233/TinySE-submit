@@ -16,7 +16,7 @@ public class BPlusTreeTest {
 	public void bPlusTreeTest() throws IOException {
 		String metapath = "./tmp/bplustree.meta";
 		String savepath = "./tmp/bplustree.tree";
-		int blocksize = 512;
+		int blocksize = 44;
 		int nblocks = 1000;
  
 		File treefile = new File(savepath);
@@ -48,6 +48,27 @@ public class BPlusTreeTest {
 		tree.insert(247, 54);
 		tree.insert(357, 254);
 		tree.insert(557, 54);
+
+//		tree.insert(101, 8);
+//		tree.insert(102, 1);
+//		tree.insert(103, 8);
+//		tree.insert(104, 32);
+//		tree.insert(105, 8);
+//		tree.insert(106, 98);
+//		tree.insert(107, 54);
+//		tree.insert(108, 54);
+//		tree.insert(109, 54);
+//		tree.insert(110, 254);
+//		tree.insert(111, 54);
+//		tree.insert(112, 54);
+//		tree.insert(113, 54);
+//		tree.insert(114, 54);
+//		tree.insert(115, 54);
+//		tree.insert(116, 54);
+//		tree.insert(117, 54);
+//		tree.insert(118, 54);
+//		tree.insert(119, 54);
+//		tree.insert(120, 54);
 		tree.close();
  
 		// check read and write and result of tree

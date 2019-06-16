@@ -7,7 +7,7 @@ import java.util.List;
 public abstract class Node {
     List<Integer> keys;
     Integer maxKeys;
-    Long position;
+    Integer position;
 
     int keyNumber() {
         return keys.size();
@@ -26,6 +26,8 @@ public abstract class Node {
     abstract boolean isUnderflow();
 
     abstract Long save(Long offset) throws IOException;
+
+    abstract void save() throws IOException;
 
     public String toString() {
         return keys.toString();

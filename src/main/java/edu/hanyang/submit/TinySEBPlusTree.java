@@ -4,18 +4,23 @@ import edu.hanyang.indexer.BPlusTree;
 
 import java.io.*;
 import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 import static org.junit.Assert.assertEquals;
 
 public class TinySEBPlusTree implements BPlusTree{
 	static Node root;
-	static Long root_position;
+	static Integer root_position;
 	static Integer maxKeys;
 	static Integer blocksize;
+	static Integer nblocks;
 	static RandomAccessFile file;
 	static Integer num_nodes;
+	static List<Node> inMemoryNodes;
+	static Node[] forSearchNodes;
 	String savepath;
 	String metapath;
 
@@ -25,6 +30,8 @@ public class TinySEBPlusTree implements BPlusTree{
 		this.file = new RandomAccessFile(savepath, "rw");
 		this.savepath = savepath;
 		this.metapath = metapath;
+		inMemoryNodes = new ArrayList<>();
+		inMemoryNodes.add(null);
 	}
 
 	public TinySEBPlusTree(){
@@ -32,6 +39,9 @@ public class TinySEBPlusTree implements BPlusTree{
 
 	@Override
 	public void close() throws IOException {
+		for(int i=0; i<inMemoryNodes.size(); i++){
+			inMemoryNodes.get(i).save();
+		}
 		root_position = root.position;
 		File meta = new File(metapath);
 		if(!meta.exists()){
@@ -41,11 +51,11 @@ public class TinySEBPlusTree implements BPlusTree{
 			meta.createNewFile();
 		}
 		DataOutputStream is = new DataOutputStream(new BufferedOutputStream(new FileOutputStream(metapath, true), 1024));
-		is.writeLong(root_position);
+		is.writeInt(root_position);
 		is.writeInt(maxKeys);
 		is.writeInt(blocksize);
 		is.close();
-		root.save(root_position);
+//		root.save();
 	}
 
 	@Override
@@ -58,13 +68,14 @@ public class TinySEBPlusTree implements BPlusTree{
 		this.metapath = metapath;
 		this.savepath = savepath;
 		this.blocksize = blocksize;
+		this.nblocks = nblocks >= blocksize ? blocksize-1 : nblocks;
 		maxKeys = (blocksize - 12) / 8;
-		root_position = new Long(0);
+		root_position = 0;
 
 		File meta = new File(metapath);
 		if(meta.exists() && meta.length() > 0){
 			DataInputStream is = new DataInputStream(new BufferedInputStream(new FileInputStream(metapath), 1024));
-			root_position = is.readLong();
+			root_position = is.readInt();
 			maxKeys = is.readInt();
 			this.blocksize = is.readInt();
 		}else{
@@ -81,22 +92,27 @@ public class TinySEBPlusTree implements BPlusTree{
 			TinySEBPlusTree.root = loadNode(root_position);
 		}else{
 			TinySEBPlusTree.root = new LeafNode();
+			((LeafNode)root).isInMemory = 1;
+			((LeafNode)root).memoryPos = 0;
 		}
 		TinySEBPlusTree.num_nodes += 1;
+		inMemoryNodes = new ArrayList<>();
+		inMemoryNodes.add(root);
+		forSearchNodes = new Node[nblocks];
 	}
 
 	@Override
 	public int search(int arg0) throws IOException {
-		return root.getValue(arg0);
+		return ((InternalNode)root).getValueForSearch(arg0);
 	}
 
-	public static Node loadNode(Long offset) throws IOException {
+	public static Node loadNode(Integer offset) throws IOException {
 		file.seek(offset);
 		int type = file.readInt();
-		if(type == 1){
-			return new LeafNode(offset);
+		if(type == -2){
+			return new InternalNode(offset);
 		}else{
-			return new InternalNode((offset));
+			return new LeafNode((offset));
 		}
 	}
 

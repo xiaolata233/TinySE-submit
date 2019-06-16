@@ -9,19 +9,29 @@ import java.util.List;
 public class LeafNode extends Node{
     List<Integer> values;
     LeafNode next;
+    int isInMemory;
+    int memoryPos;
 
     // create a new Node at the end of the file
     LeafNode() throws IOException {
         keys = new ArrayList<Integer>();
         values = new ArrayList<Integer>();
-        position = ((Integer)(TinySEBPlusTree.num_nodes * TinySEBPlusTree.blocksize)).longValue();
-        save(position);
+        position = TinySEBPlusTree.num_nodes * TinySEBPlusTree.blocksize;
+        //save(position);
     }
 
+//    LeafNode(Integer inMemory){
+//        keys = new ArrayList<Integer>();
+//        values = new ArrayList<Integer>();
+//    }
+
     // load the Node from the file at the offset
-    LeafNode(Long offset) throws IOException {
+    LeafNode(Integer offset) throws IOException {
         keys = new ArrayList<Integer>();
         values = new ArrayList<Integer>();
+        if(offset < TinySEBPlusTree.nblocks && offset != 0){
+            offset = TinySEBPlusTree.num_nodes * TinySEBPlusTree.blocksize;
+        }
         position = offset;
         TinySEBPlusTree.file.seek(offset);
         TinySEBPlusTree.file.readInt();
@@ -33,15 +43,30 @@ public class LeafNode extends Node{
     }
 
     @Override
-    Long save(Long offset) throws IOException {
-        TinySEBPlusTree.file.seek(offset);
-        TinySEBPlusTree.file.writeInt(1);
+    void save() throws IOException {
+//        if(offset < TinySEBPlusTree.nblocks && offset != 0){
+//            offset = new Long(TinySEBPlusTree.num_nodes * TinySEBPlusTree.blocksize);
+//            TinySEBPlusTree.num_nodes += 1;
+//        }
+//        TinySEBPlusTree.file.seek(offset);
+        TinySEBPlusTree.file.seek(position);
+//        if(isInMemory == 1){
+//            TinySEBPlusTree.file.writeInt(2);
+//            TinySEBPlusTree.file.writeInt(memoryPos);
+//        }else{
+//            TinySEBPlusTree.file.writeInt(1);
+//        }
+        if(isInMemory == 1){
+            TinySEBPlusTree.file.writeInt(memoryPos);
+        }else{
+            TinySEBPlusTree.file.writeInt(-1);
+        }
         TinySEBPlusTree.file.writeInt(keyNumber());
         for(int i=0; i<keyNumber(); i++){
             TinySEBPlusTree.file.writeInt(keys.get(i));
             TinySEBPlusTree.file.writeInt(values.get(i));
         }
-        return offset + TinySEBPlusTree.blocksize;
+//        return offset + TinySEBPlusTree.blocksize;
     }
 
     @Override
@@ -62,13 +87,14 @@ public class LeafNode extends Node{
         }
         if (TinySEBPlusTree.root.isOverflow()) {
             Node sibling = split();
+            sibling.save();
             TinySEBPlusTree.num_nodes += 1;
             InternalNode newRoot = new InternalNode();
             TinySEBPlusTree.num_nodes += 1;
             newRoot.keys.add(sibling.getFirstLeafKey());
             newRoot.children.add(position);
             newRoot.children.add(sibling.position);
-            newRoot.save(newRoot.position);
+            newRoot.save();
             TinySEBPlusTree.root = newRoot;
         }
     }
@@ -84,14 +110,20 @@ public class LeafNode extends Node{
         int from = (keyNumber() + 1) / 2, to = keyNumber();
         sibling.keys.addAll(keys.subList(from, to));
         sibling.values.addAll(values.subList(from, to));
-
         keys.subList(from, to).clear();
         values.subList(from, to).clear();
-
         sibling.next = next;
         next = sibling;
-        sibling.writeToFileEnd();
-        this.save(position);
+        save();
+
+        if(TinySEBPlusTree.inMemoryNodes.size() < TinySEBPlusTree.nblocks){
+            sibling.isInMemory = 1;
+            sibling.memoryPos = TinySEBPlusTree.inMemoryNodes.size();
+            TinySEBPlusTree.inMemoryNodes.add(sibling);
+        }
+//        else{
+//            sibling.save();
+//        }
 
         return sibling;
     }
@@ -106,9 +138,14 @@ public class LeafNode extends Node{
         return values.size() < TinySEBPlusTree.maxKeys / 2;
     }
 
-    void writeToFileEnd() throws IOException {
-        save(((Integer)(TinySEBPlusTree.num_nodes * TinySEBPlusTree.blocksize)).longValue());
+    @Override
+    Long save(Long offset) throws IOException {
+        return null;
     }
+
+//    void writeToFileEnd() throws IOException {
+//        save(((Integer)(TinySEBPlusTree.num_nodes * TinySEBPlusTree.blocksize)).longValue());
+//    }
 
     void print(){
         int i;
