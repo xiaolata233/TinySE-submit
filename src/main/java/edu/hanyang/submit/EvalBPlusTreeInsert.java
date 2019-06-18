@@ -65,11 +65,11 @@ public class EvalBPlusTreeInsert {
         }
 
         long start = System.currentTimeMillis();
-//		for (int i = 0; i < 15000000; i++) {
-        for (int i = 0; i < 10000; i++) {
+		for (int i = 0; i < 15000000; i++) {
+//        for (int i = 0; i < 10000; i++) {
 //            if (true)
 //                System.out.println(i+"-th insertion");
-            if(i != 0 && i%1050 == 0){
+            if(i%100000 == 0){
                 System.out.println(i);
             }
             int key = dis.readInt();

@@ -71,25 +71,31 @@ public class TinySEQueryProcess implements QueryProcess {
 
 //		String query = "\"3 4\" 7";
 		String[] result = query.split(" ");
-		int shift = 0;
+		int inShift = 0;
 		for(String r: result){
+			if(r.length() == 0){
+				//pass
+			}else
+			if(r.contains("\"") && r.length() == 1){
+				inShift = inShift == 1 ? 0 : 1;
+			}else
 			if(r.contains("\"")){
 				if(r.charAt(0) == '\"'){
 					r = r.substring(1);
+					inShift = 1;
 				}else{
 					r = r.substring(0,1);
+					inShift = 0;
 				}
-				shift += 1;
 				node = qp.new QueryPlanNode();
 				node.type = QueryPlanTree.NODE_TYPE.OPRAND;
-				node.shift = shift;
+				node.shift = 1;
 				node.termid = Integer.valueOf(r);
 				queue.add(node);
 			}else{
-				shift = 0;
 				node = qp.new QueryPlanNode();
 				node.type = QueryPlanTree.NODE_TYPE.OPRAND;
-				node.shift = shift;
+				node.shift = inShift;
 				node.termid = Integer.valueOf(r);
 				queue.add(node);
 			}
@@ -106,18 +112,19 @@ public class TinySEQueryProcess implements QueryProcess {
 			if(n1.shift != 0 && n2.shift != 0){
 				node = qp.new QueryPlanNode();
 				node.type = QueryPlanTree.NODE_TYPE.OP_SHIFTED_AND;
-				node.shift = Math.abs(n2.shift - n1.shift);
+//				node.shift = Math.abs(n2.shift - n1.shift);
+				node.shift = n1.type == QueryPlanTree.NODE_TYPE.OPRAND  && n2.type == QueryPlanTree.NODE_TYPE.OPRAND ? 1 : n1.shift + n2.shift;
 				node.left = n1;
 				node.right = n2;
 			}else{
-				if(n1.type == QueryPlanTree.NODE_TYPE.OPRAND){
+				if(n1.type == QueryPlanTree.NODE_TYPE.OPRAND || n1.shift != 0){
 					QueryPlanTree.QueryPlanNode tempNode = qp.new QueryPlanNode();
 					tempNode.type = QueryPlanTree.NODE_TYPE.OP_REMOVE_POS;
 					tempNode.shift = 0;
 					tempNode.left = n1;
 					n1 = tempNode;
 				}
-				if(n2.type == QueryPlanTree.NODE_TYPE.OPRAND){
+				if(n2.type == QueryPlanTree.NODE_TYPE.OPRAND || n2.shift != 0){
 					QueryPlanTree.QueryPlanNode tempNode = qp.new QueryPlanNode();
 					tempNode.type = QueryPlanTree.NODE_TYPE.OP_REMOVE_POS;
 					tempNode.shift = 0;
